@@ -24,29 +24,35 @@
     <div class="form">
       <div>Let's do this!</div>  
       <form>
-        <div class="first-name">
-          <label for="firstname">First Name</label>
-          <input type="text">
+        <div class="names">
+          <div class="first-name">
+            <label for="firstname">First Name *</label>
+            <input type="text" id="firstname" name="firstname" required>
+          </div>
+          <div class="last-name">
+            <label for="lastname">Last Name *</label>
+            <input type="text" id="lastname" name="lastname" required>
+          </div>
         </div>
-        <div class="last-name">
-          <label for="lastname">Last Name</label>
-          <input type="text">
+        <div class="contacts">
+          <div class="email">
+            <label for="email">Email *</label>
+            <input type="email" name="email" id="email" required>
+          </div>
+          <div class="phoneNum">
+            <label for="phone">Phone Number</label>
+            <input type="tel" name="phone" id="phone">
+          </div>
         </div>
-        <div class="email">
-          <label for="email">Email</label>
-          <input type="email" name="" id="">
-        </div>
-        <div class="phone">
-          <label for="phone">Phone Number</label>
-          <input type="tel" name="" id="">
-        </div>
-        <div class="pwd">
-          <label for="pwd">Password</label>
-          <input type="password" name="" id="">
-        </div>
-        <div class="cmpwd">
-          <label for="cmpwd">Confirm Password</label>
-          <input type="password" name="">
+        <div class="passwords">
+          <div class="pwd">
+            <label for="pwd">Password *</label>
+            <input type="password" name="pwd" id="pwd"  required>
+          </div>
+          <div class="cfpwd">
+            <label for="cfpwd">Confirm Password *</label>
+            <input type="password" name="cfpwd" id="cfpwd" required>
+          </div>
         </div>
       </form>
     

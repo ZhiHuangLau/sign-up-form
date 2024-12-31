@@ -1,1 +1,28 @@
+/* */
+form{
+  display: flex;
+  flex-direction: column;
+}
+
+.names, .contacts, .passwords{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.first-name, .email, .pwd{
+  margin-right: 150px;
+}
+
+.first-name, .last-name, .email, .phoneNum,
+.pwd, .cfpwd{
+  display: flex;
+  flex-direction: column;
+}
+
+a{
+  text-decoration: none;
+  color: #596D48;
+}
+
 
