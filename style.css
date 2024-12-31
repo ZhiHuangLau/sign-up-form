@@ -4,6 +4,24 @@ form{
   flex-direction: column;
 }
 
+input{
+  border: 1px solid #e5e7eb;
+}
+
+.passwords input:invalid{
+  background-color: transparent;
+  outline: none;
+  border: 1px solid red;
+}
+
+input:focus{
+  background-color:transparent;
+  outline: none;
+  border: 1px solid blue;
+}
+
+
+
 .names, .contacts, .passwords{
   display: flex;
   flex-direction: row;
@@ -18,6 +36,11 @@ form{
 .pwd, .cfpwd{
   display: flex;
   flex-direction: column;
+}
+
+button#createAcc{
+  background-color: #596D48;
+  color: white;
 }
 
 a{
