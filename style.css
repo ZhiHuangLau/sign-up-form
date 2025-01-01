@@ -1,4 +1,46 @@
 /* */
+@font-face {
+  font-family: norse;
+  src: url(Norse-Bold.otf);
+}
+body{
+  display: flex;
+  flex-direction: row;
+}
+.left{
+  position: relative;
+}
+.logos{
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  opacity: 0.4;
+  position:absolute;
+  top: 100px;
+  align-items: center;
+  width: 30vw;
+}
+
+#background{
+  max-width: 30vw;
+  height:100vh;
+}
+
+.logo{
+  font-family: norse;
+  color: white;
+  font-size: clamp(80px,25vh,160px);
+}
+
+#face{
+  height: clamp(100px,30vh,200px);
+}
+
+.credit{
+  position:absolute;
+  bottom: 0px;
+}
+
 form{
   display: flex;
   flex-direction: column;
